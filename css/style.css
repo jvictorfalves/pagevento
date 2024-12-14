@@ -1,0 +1,274 @@
+/* Estilo para o body, com fonte, cor e fundo */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/Makes\ &\ Cosméticos.png');
+    background-color: #333;
+    background-size: cover;
+    /* Ajusta a imagem para cobrir toda a área */
+    background-position: center;
+    /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    /* Impede que a imagem se repita */
+    background-attachment: fixed;
+    font-size: 1rem;
+    /* Base de fonte */
+}
+
+/* Cabeçalho com gradiente e texto centralizado */
+.header {
+    background: linear-gradient(to right, #333, #88806b);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Barra de navegação fixa no topo */
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Links de navegação */
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.625rem 1.25rem;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo do título do evento */
+.evento-titulo {
+    font-size: 2.25rem;
+    /* Aproximadamente 36px */
+    margin: 0;
+}
+
+.evento-titulo span {
+    color: #d4af37;
+    /* Dourado */
+}
+
+/* Subtítulo com fonte itálica e cor diferenciada */
+.subtitulo {
+    font-size: 1.25rem;
+    /* Aproximadamente 20px */
+    margin-top: 0.625rem;
+    /* Aproximadamente 10px */
+    font-style: italic;
+    color: #f0e68c;
+}
+
+/* Estilo da seção de informações do evento */
+.info-evento {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 2rem auto;
+    padding: 1.25rem;
+    max-width: 90vw;
+    border-radius: 10px;
+    box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+/* Estilo do banner do evento */
+.evento-banner img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1.25rem;
+}
+
+/* Descrição do evento */
+.evento-descricao {
+    font-size: 1.125rem;
+    /* Aproximadamente 18px */
+    margin-bottom: 0.625rem;
+}
+
+/* Informações sobre a data, horário e local */
+.evento-data {
+    font-size: 1rem;
+    /* Aproximadamente 16px */
+}
+
+/* Estilo do convite */
+.convite {
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #d4af37;
+}
+
+/* Estilo da galeria de produtos */
+.galeria {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 2rem auto;
+    padding: 1.25rem;
+    max-width: 90vw;
+    border-radius: 10px;
+    box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.galeria h2 {
+    color: #d4af37;
+    margin-bottom: 1rem;
+}
+
+/* Layout da galeria de imagens */
+.galeria-imagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+/* Estilo das imagens da galeria */
+.galeria-imagens img {
+    width: 12vw;
+    /* Ajuste baseado na largura da tela */
+    height: 12vw;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+/* Efeito de hover nas imagens */
+.galeria-imagens img:hover {
+    transform: scale(1.05);
+}
+
+/* Seção de perguntas frequentes (FAQ) */
+.faq {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 2rem auto;
+    padding: 1.25rem;
+    max-width: 90vw;
+    border-radius: 10px;
+    box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.15);
+}
+
+.faq h2 {
+    color: #d4af37;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Estilo de cada item de FAQ */
+.faq-item {
+    margin-bottom: 1rem;
+    padding: 0.625rem;
+    border-radius: 5px;
+}
+
+/* Estilo das perguntas do FAQ */
+.faq-question {
+    background-color: #d4af37;
+    color: #333;
+    border: none;
+    width: 100%;
+    text-align: left;
+    padding: 0.625rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+/* Efeito de hover nas perguntas */
+.faq-question:hover {
+    background-color: #c4a333;
+}
+
+/* Estilo das respostas do FAQ */
+.faq-answer {
+    display: none;
+    padding: 0.625rem;
+    background-color: #333;
+    border-radius: 5px;
+    margin-top: 0.3125rem;
+    color: white;
+}
+
+/* Links de redes sociais */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5625rem;
+    /* Aproximadamente 25px */
+}
+
+/* Ícones sociais */
+.social-icon {
+    width: 2.8125rem;
+    height: 2.8125rem;
+}
+
+/* Efeito de hover nos links sociais */
+.social-links a:hover {
+    background-color: #d4af37;
+    /* Cor de fundo ao passar o mouse */
+    color: #333;
+    /* Cor do ícone ao passar o mouse */
+    transform: translateY(-2px);
+}
+
+/* Estilo dos links sociais */
+.social-links a {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #f7f6f1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.5rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Rodapé do site */
+.rodape {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.625rem;
+    margin-top: 0.625rem;
+    font-size: 0.875rem;
+    /* Aproximadamente 14px */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+
+    /* Ajustes para telas menores (mobile) */
+    .evento-titulo {
+        font-size: 2rem;
+    }
+
+    .subtitulo {
+        font-size: 1rem;
+    }
+
+    .galeria-imagens img {
+        width: 20vw;
+        height: 20vw;
+    }
+
+    .social-icon {
+        width: 2.25rem;
+        height: 2.25rem;
+    }
+
+    .social-links a {
+        width: 2.25rem;
+        height: 2.25rem;
+    }
+}

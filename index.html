@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento - La Bella</title>
+
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Link para o arquivo de script JavaScript -->
+    <script src="js/script.js" defer></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Cabeçalho da Página -->
+    <header class="header">
+        <!-- Título principal do evento -->
+        <h1 class="evento-titulo">Aniversário <span>LA BELLA</span></h1>
+        <!-- Subtítulo do evento -->
+        <p class="subtitulo">Makes e Cosméticos - Descontos imperdíveis!</p>
+
+        <!-- Barra de Navegação -->
+        <div class="navbar">
+            <a href="#produtos">Produtos</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contato">Contato</a>
+        </div>
+    </header>
+
+    <!-- Corpo principal da página -->
+    <main>
+
+        <!-- Seção de Informações da Promoção -->
+        <section class="info-evento">
+            <!-- Imagem principal do evento -->
+            <img src="img/frenteprinc.jpg" alt="Banner da promoção La Bella" class="evento-banner">
+
+            <!-- Descrição do evento -->
+            <p class="evento-descricao">
+                No dia <strong>12 de Março de 2025</strong> em <strong>comemoração</strong> aos <strong>6 anos de
+                    loja</strong>, a <strong>La Bella</strong> terá uma promoção especial para você!
+                <strong>Descontos</strong> de até <strong>50%</strong> em <strong>Makes</strong> e
+                <strong>Cosméticos</strong> selecionados.
+            </p>
+
+            <!-- Detalhes da data, horário e local -->
+            <p class="evento-data">
+                <strong>Data:</strong> 12 de Março de 2025<br>
+                <strong>Horário:</strong> 08:00<br>
+                <strong>Local:</strong> Rua Marechal Floriano Peixoto, Centro, Número 22, Orizona-GO
+            </p>
+
+            <!-- Convite para o evento -->
+            <p class="convite">Não perca essa oportunidade!</p>
+        </section>
+
+        <!-- Galeria de Fotos -->
+        <section class="galeria" id="produtos">
+            <h2>PRODUTOS SELECIONADOS</h2>
+
+            <!-- Imagens dos produtos em promoção -->
+            <div class="galeria-imagens">
+                <img src="img/fotoloja1.jpg" alt="Produto 1">
+                <img src="img/fotoloja2.jpg" alt="Produto 2">
+                <img src="img/fotoloja3.jpg" alt="Produto 3">
+                <img src="img/fotoloja4.jpg" alt="Produto 4">
+                <img src="img/fotoloja5.jpg" alt="Produto 5">
+                <img src="img/fotoloja6.jpg" alt="Produto 6">
+                <img src="img/fotoloja7.jpg" alt="Produto 7">
+            </div>
+        </section>
+
+        <!-- Seção de FAQ -->
+        <section class="faq" id="faq">
+            <h2>Perguntas Frequentes</h2>
+
+            <!-- Pergunta e Resposta 1 -->
+            <article class="faq-item">
+                <button class="faq-question" onclick="toggleFAQ(this)">Quais produtos estão em promoção?</button>
+                <p class="faq-answer">
+                    Todos os produtos da loja têm desconto, mas os produtos selecionados chegam a ter até 50% de
+                    desconto.
+                </p>
+            </article>
+
+            <!-- Pergunta e Resposta 2 -->
+            <article class="faq-item">
+                <button class="faq-question" onclick="toggleFAQ(this)">Posso comprar online?</button>
+                <p class="faq-answer">
+                    No momento, as promoções são válidas apenas para compras na loja física no dia 12/05/2025.
+                </p>
+            </article>
+
+            <!-- Pergunta e Resposta 3 -->
+            <article class="faq-item">
+                <button class="faq-question" onclick="toggleFAQ(this)">As promoções são válidas para pagamentos em
+                    cartão?</button>
+                <p class="faq-answer">
+                    Sim! Aceitamos pagamentos em cartão de crédito e débito para todas as promoções do evento.
+                </p>
+            </article>
+        </section>
+
+        <!-- Seção de Contato -->
+        <section id="contato">
+            <!-- Links para redes sociais -->
+            <div class="social-links">
+                <a href="https://www.instagram.com/labellamakes_oficial/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="https://wa.me/+5564996145941" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Rodapé da Página -->
+    <footer class="rodape">
+        <p>© 2024 La Bella . Todos os direitos reservados</p>
+    </footer>
+
+</body>
+
+</html>
